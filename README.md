@@ -1,6 +1,6 @@
 # CSV check
-This is a simple example of reading CSV file and check for bad value which by default is zero.
-It reads csv data and it checks for bad value, if found the value will replaced by linear interpolation method:
+This is an example of reading a CSV file and check for bad value. By default, the bad value is zero.
+After reading the CSV file, it checks for bad value, and if any found the value will be replaced by linear interpolation between previous and next available value. It is assumed that no adjacent bad value exists.
 ```
 interpolated_value = (value_1 * (1.0f - interpolation_ratio) + value_2 * interpolation_ratio)
 ```
