@@ -6,7 +6,7 @@ interpolated_value = (value_1 * (1.0f - interpolation_ratio) + value_2 * interpo
 ```
 The interpolation_ratio value can be set to any number between 0 and 1. This will define how much the interpolated_value should closer to value_1 or value_2.
 
-## Required
+## Requirments
     1. Visual Studio (V16) / GCC (V7.X)
     2. CMake (V3.x)
 
